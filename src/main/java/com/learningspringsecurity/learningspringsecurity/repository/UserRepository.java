@@ -1,10 +1,10 @@
-package com.satya.learningspringsecurity.learningspringsecurity.repository;
+package com.learningspringsecurity.learningspringsecurity.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
-import com.satya.learningspringsecurity.learningspringsecurity.model.Users;
+import com.learningspringsecurity.learningspringsecurity.model.Users;
 
 public interface UserRepository extends JpaRepository<Users, Long> {
 

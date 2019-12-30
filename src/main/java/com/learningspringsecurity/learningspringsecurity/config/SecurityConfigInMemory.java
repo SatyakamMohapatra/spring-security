@@ -1,9 +1,6 @@
-package com.satya.learningspringsecurity.learningspringsecurity.config;
+package com.learningspringsecurity.learningspringsecurity.config;
 //package com.satya.learningspringsecurity.learningspringsecurity;
 //
-//import javax.sql.DataSource;
-//
-//import org.springframework.beans.factory.annotation.Autowired;
 //import org.springframework.context.annotation.Bean;
 //import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 //import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -13,17 +10,17 @@ package com.satya.learningspringsecurity.learningspringsecurity.config;
 //import org.springframework.security.crypto.password.PasswordEncoder;
 //
 //@EnableWebSecurity
-//public class SecurityConfigJDBC extends WebSecurityConfigurerAdapter {
-//
-//	@Autowired
-//	private DataSource dataSource;
+//public class SecurityConfigInMemory extends WebSecurityConfigurerAdapter {
 //
 //	@Override
 //	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-//		auth.jdbcAuthentication()
-//					.dataSource(dataSource)
-//					.usersByUsernameQuery("select username,password,enabled from users where username = ?")
-//					.authoritiesByUsernameQuery("select username,authority from authorities where username = ?");
+//			auth.inMemoryAuthentication().withUser("user")
+//					.password("$2y$12$2jZttJgcfEBL09021EktnOjQoSUCWGNO5zlFSJs/omzA/DdAV5TXq")
+//					.roles("USER_ROLE")
+//					.and()
+//					.withUser("admin")
+//					.password("$2y$12$jdp0Vh2LKyq2zhZEi1RvYegXWI6ahT2zO73EpuKfqw.lPUSJkf/We")
+//					.roles("ADMIN_ROLE");
 //	}
 //
 //	@Override

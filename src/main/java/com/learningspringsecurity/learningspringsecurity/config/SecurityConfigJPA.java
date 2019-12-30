@@ -1,4 +1,4 @@
-package com.satya.learningspringsecurity.learningspringsecurity.config;
+package com.learningspringsecurity.learningspringsecurity.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

@@ -1,4 +1,4 @@
-package com.satya.learningspringsecurity.learningspringsecurity.config;
+package com.learningspringsecurity.learningspringsecurity.config;
 
 import java.util.Arrays;
 import java.util.Collection;
@@ -7,7 +7,7 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import com.satya.learningspringsecurity.learningspringsecurity.model.Users;
+import com.learningspringsecurity.learningspringsecurity.model.Users;
 
 public class MyUserDetails implements UserDetails {
 

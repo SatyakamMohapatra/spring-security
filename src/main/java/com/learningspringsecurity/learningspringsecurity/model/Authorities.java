@@ -1,4 +1,4 @@
-package com.satya.learningspringsecurity.learningspringsecurity.model;
+package com.learningspringsecurity.learningspringsecurity.model;
 
 import java.util.ArrayList;
 import java.util.List;

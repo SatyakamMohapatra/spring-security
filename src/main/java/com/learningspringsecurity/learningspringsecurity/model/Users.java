@@ -1,4 +1,4 @@
-package com.satya.learningspringsecurity.learningspringsecurity.model;
+package com.learningspringsecurity.learningspringsecurity.model;
 
 import javax.persistence.Entity;
 import javax.persistence.FetchType;

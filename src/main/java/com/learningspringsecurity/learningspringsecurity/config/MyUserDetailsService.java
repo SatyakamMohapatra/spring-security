@@ -1,4 +1,4 @@
-package com.satya.learningspringsecurity.learningspringsecurity.config;
+package com.learningspringsecurity.learningspringsecurity.config;
 
 import javax.transaction.Transactional;
 
@@ -8,8 +8,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Component;
 
-import com.satya.learningspringsecurity.learningspringsecurity.model.Users;
-import com.satya.learningspringsecurity.learningspringsecurity.service.UserService;
+import com.learningspringsecurity.learningspringsecurity.model.Users;
+import com.learningspringsecurity.learningspringsecurity.service.UserService;
 
 @Component
 public class MyUserDetailsService implements UserDetailsService{

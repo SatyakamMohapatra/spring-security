@@ -1,4 +1,4 @@
-package com.satya.learningspringsecurity.learningspringsecurity;
+package com.learningspringsecurity.learningspringsecurity;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -7,10 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-import com.satya.learningspringsecurity.learningspringsecurity.model.Authorities;
-import com.satya.learningspringsecurity.learningspringsecurity.model.Users;
-import com.satya.learningspringsecurity.learningspringsecurity.repository.AuthoritiesRepository;
-import com.satya.learningspringsecurity.learningspringsecurity.repository.UserRepository;
+import com.learningspringsecurity.learningspringsecurity.model.Authorities;
+import com.learningspringsecurity.learningspringsecurity.model.Users;
+import com.learningspringsecurity.learningspringsecurity.repository.AuthoritiesRepository;
+import com.learningspringsecurity.learningspringsecurity.repository.UserRepository;
 
 @SpringBootApplication
 @EnableTransactionManagement
